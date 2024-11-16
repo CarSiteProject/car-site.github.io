@@ -4,8 +4,8 @@
   --background-dark: #121212;
   --text-light: #333;
   --text-dark: #fff;
-  --accent-color: #6200ea;
-  --button-hover: #3700b3;
+  --accent-color: #b0b0b0; /* Grey color instead of purple */
+  --button-hover: #8e8e8e; /* Slightly darker grey */
   --input-border: #bbb;
   --shadow-light: rgba(0, 0, 0, 0.1);
   --shadow-dark: rgba(255, 255, 255, 0.1);
@@ -19,10 +19,15 @@ body {
   color: var(--text-light);
   transition: background-color 0.3s ease, color 0.3s ease;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
   overflow-x: hidden;
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
 }
 
 .container {
@@ -126,20 +131,20 @@ input[type="checkbox"]:checked + .slider::before {
 /* Car Gallery */
 .car-gallery {
   display: flex;
-  flex-direction: row;
   gap: 20px;
-  overflow-x: auto;
-  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
 }
 
 .car-item {
-  display: inline-block;
   width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 .car-item img {
-  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px var(--shadow-light);
@@ -209,18 +214,9 @@ form button:hover {
   color: #fff;
 }
 
-/* Dark Mode Styles */
-body.dark-mode {
-  background-color: var(--background-dark);
-  color: var(--text-dark);
-}
-
-body.dark-mode .header {
+.tab-button:hover {
   background-color: var(--accent-color);
-}
-
-body.dark-mode .tab-button.active {
-  background-color: var(--accent-color);
+  color: #fff;
 }
 
 /* Footer */
@@ -255,8 +251,6 @@ footer a:hover {
   .car-gallery {
     flex-direction: column;
     gap: 10px;
-    overflow-y: auto;
-    height: 400px;
   }
 
   .car-item img {
