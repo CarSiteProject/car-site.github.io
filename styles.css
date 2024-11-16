@@ -1,0 +1,219 @@
+/* Global Styles */
+:root {
+    --background-light: #ffffff;
+    --background-dark: #121212;
+    --text-light: #333;
+    --text-dark: #fff;
+    --accent-color: #6200ea;
+    --button-hover: #3700b3;
+    --input-border: #bbb;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(255, 255, 255, 0.1);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--accent-color);
+    color: #fff;
+    box-shadow: 0 4px 6px var(--shadow-light);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dark-mode-toggle input[type="checkbox"] {
+    display: none;
+  }
+  
+  .slider {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+  input[type="checkbox"]:checked + .slider {
+    background-color: var(--accent-color);
+  }
+  
+  input[type="checkbox"]:checked + .slider::before {
+    transform: translateX(20px);
+  }
+  
+  /* Main Content */
+  .tab-content {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .tab-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px var(--shadow-light);
+    margin-top: 20px;
+  }
+  
+  /* Smooth Transition for Tab Switch */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Car Gallery */
+  .car-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--shadow-light);
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-weight: 500;
+    color: var(--text-light);
+  }
+  
+  form input, form textarea {
+    padding: 12px;
+    border: 1px solid var(--input-border);
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    color: var(--text-light);
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
+  
+  form button {
+    padding: 12px;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .header {
+    background-color: var(--accent-color);
+  }
+  
+  body.dark-mode .tab-button.active {
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+  }
+  
