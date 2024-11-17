@@ -1,4 +1,4 @@
-# Moving soon to react.js!
+# NOW BASED ON REACT.js 🎉
 
 # cars-site.github.io
 this is a test site for upcoming project
@@ -13,4 +13,5 @@ this is a test site for upcoming project
 **[car-site.github.io/](https://carsiteproject.github.io/car-site.github.io/)**
 
 
-### CHANGELOG.md file would be added soon!
+### CHANGELOG
+**you can find changelog here: [CHANGELOG.md](https://github.com/CarSiteProject/car-site.github.io/blob/dev/CHANGELOG.md)**
