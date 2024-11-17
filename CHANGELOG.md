@@ -8,3 +8,11 @@
 
       What changed:
            moved to react.js
+
+### v0.0.26
+      Known issues:
+         no known issues.
+         
+
+      What changed:
+           redesigned the site with new ui engine
