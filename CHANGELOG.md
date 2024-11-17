@@ -9,7 +9,7 @@
       What changed:
            moved to react.js
 
-### v0.0.26
+### v0.0.32
       Known issues:
          no known issues.
          
