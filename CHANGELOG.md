@@ -11,7 +11,7 @@
 
 ### v0.0.31
       Known issues:
-         no known issues.
+         site is very badly optimized for mobile (not optimized at all)
          
 
       What changed:
