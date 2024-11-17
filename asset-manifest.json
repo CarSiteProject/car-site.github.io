@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car-site.github.io/static/css/main.6b73cebd.css",
+    "main.js": "/car-site.github.io/static/js/main.5821320d.js",
+    "index.html": "/car-site.github.io/index.html",
+    "main.6b73cebd.css.map": "/car-site.github.io/static/css/main.6b73cebd.css.map",
+    "main.5821320d.js.map": "/car-site.github.io/static/js/main.5821320d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b73cebd.css",
+    "static/js/main.5821320d.js"
+  ]
+}
