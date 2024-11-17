@@ -1,4 +1,4 @@
-# NOW BASED ON REACT.js 🎉
+# NOW BASED ON React.js 🎉
 
 # cars-site.github.io
 this is a test site for upcoming project
