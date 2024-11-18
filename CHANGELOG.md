@@ -11,7 +11,9 @@
 
 ### v0.0.31
       Known issues:
-         site is very badly optimized for mobile (not optimized at all)
+         - site is very, very badly optimized for mobile not optimized at all.
+         - no car images 
+         - darkmode doesn't work properly as it should!
          
 
       What changed:
