@@ -1,4 +1,4 @@
-# NOW BASED ON [React.js](https://react.dev/) 🎉
+# SWITCHED TO [Vue.js](https://vuejs.org/) 🎉
 
 # cars-site.github.io
 this is a test site for upcoming project
