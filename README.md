@@ -1,6 +1,6 @@
 # SWITCHED TO [Vue.js](https://vuejs.org/) 🎉
 
-# cars-site.github.io
+# cars-site
 this is a test site for upcoming project
 
 ## ⚠️SITE IS CURENTLY IN DEVELOPMENT!!!⚠️ so don't expect the greatest animation and stuff from it SO DON'T EXPECT THE BEST PERFORMENCE FROM IT AND IT MIGHT BE BROKEN SOMETIMES!!
@@ -10,7 +10,7 @@ this is a test site for upcoming project
 ### also Note: that all cars are example cars i don't own or have any of them either sell them its just a template site repo
 
 ### Link to the webiste: 
-**[car-site.github.io/](https://carsiteproject.github.io/car-site.github.io/)**
+**[car-site.github.io/](carsiteproject.github.io/car-site/)**
 
 
 ### CHANGELOG
