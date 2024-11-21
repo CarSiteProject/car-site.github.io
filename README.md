@@ -1,4 +1,4 @@
-# SWITCHED TO [Vue.js](https://vuejs.org/) 🎉
+red# SWITCHED TO [Vue.js](https://vuejs.org/) 🎉
 
 # cars-site
 this is a test site for upcoming project
@@ -10,7 +10,7 @@ this is a test site for upcoming project
 ### also Note: that all cars are example cars i don't own or have any of them either sell them its just a template site repo
 
 ### Link to the webiste: 
-**[car-site.github.io/](carsiteproject.github.io/car-site/)**
+**[car-site.github.io/](https://carsiteproject.github.io/car-site/)**
 
 
 ### CHANGELOG
